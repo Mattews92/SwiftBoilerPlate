@@ -14,7 +14,6 @@
 		21226CFC20E10AB700D05D94 /* SwiftAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21226CFB20E10AB700D05D94 /* SwiftAppUITests.swift */; };
 		21226D3820E10B2E00D05D94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21226D0A20E10B2E00D05D94 /* AppDelegate.swift */; };
 		21226D3920E10B2E00D05D94 /* InactivityTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21226D0B20E10B2E00D05D94 /* InactivityTimer.swift */; };
-		21226D3A20E10B2E00D05D94 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21226D0C20E10B2E00D05D94 /* main.swift */; };
 		21226D3B20E10B2E00D05D94 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21226D0E20E10B2E00D05D94 /* ForgotPasswordViewController.swift */; };
 		21226D3C20E10B2E00D05D94 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21226D0F20E10B2E00D05D94 /* LoginViewController.swift */; };
 		21226D3D20E10B2E00D05D94 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21226D1120E10B2E00D05D94 /* Constants.swift */; };
@@ -115,6 +114,7 @@
 		21226D2F20E10B2E00D05D94 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		21226D3120E10B2E00D05D94 /* AuthHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthHandler.swift; sourceTree = "<group>"; };
 		21226D3220E10B2E00D05D94 /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		21226D5C20E10DCE00D05D94 /* SwiftApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		353C85BD380755B1D24A5EBA /* Pods-SwiftAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftAppUITests/Pods-SwiftAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3888E3D3C4D0587C12579E86 /* Pods_SwiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78964DC6FAECBCA8CD7D57EF /* Pods-SwiftAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftAppTests/Pods-SwiftAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -311,6 +311,7 @@
 		21226D5B20E10B4B00D05D94 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				21226D5C20E10DCE00D05D94 /* SwiftApp-Bridging-Header.h */,
 				21226CE220E10AB700D05D94 /* Assets.xcassets */,
 				21226CE720E10AB700D05D94 /* Info.plist */,
 			);
@@ -648,7 +649,6 @@
 				21226D5320E10B2E00D05D94 /* UITableViewCellExtension.swift in Sources */,
 				21226D5620E10B2E00D05D94 /* UIViewExtension.swift in Sources */,
 				21226D5120E10B2E00D05D94 /* UIImageViewExtension.swift in Sources */,
-				21226D3A20E10B2E00D05D94 /* main.swift in Sources */,
 				21226D4920E10B2E00D05D94 /* DateExtension.swift in Sources */,
 				21226D4120E10B2E00D05D94 /* FloatingLabelTextField.swift in Sources */,
 				21226D4620E10B2E00D05D94 /* PagerTabStrip.swift in Sources */,
@@ -844,6 +844,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mathews.SwiftApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftApp/Resources/SwiftApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -860,6 +861,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mathews.SwiftApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftApp/Resources/SwiftApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

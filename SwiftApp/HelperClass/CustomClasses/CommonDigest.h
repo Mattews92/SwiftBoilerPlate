@@ -1,9 +1,9 @@
 //
 //  CommonDigest.h
-//  GuardianRPM
+//  Mathews
 //
 //  Created by Mathews on 25/10/17.
-//  Copyright © 2017 guardian. All rights reserved.
+//  Copyright © 2017 Mathews. All rights reserved.
 //
 
 #ifndef CommonDigest_h

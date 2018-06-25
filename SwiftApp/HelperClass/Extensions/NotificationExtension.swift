@@ -1,9 +1,9 @@
 //
 //  NotificationExtension.swift
-//  GuardianRPM
+//  Mathews
 //
 //  Created by Mathews on 22/12/17.
-//  Copyright © 2017 guardian. All rights reserved.
+//  Copyright © 2017 Mathews. All rights reserved.
 //
 
 import Foundation

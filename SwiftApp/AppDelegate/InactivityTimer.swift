@@ -59,7 +59,7 @@ class InactivityTimer: UIApplication {
         
         if let touches = event.allTouches {
             for touch in touches where touch.phase == UITouchPhase.began {
-                if let timer = self.idleTimer {
+                if let _ = self.idleTimer {
                     self.resetTimer()
                 }
             }

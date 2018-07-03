@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21202FE820EB59B500F82CA6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21202FE720EB59B500F82CA6 /* NetworkManager.swift */; };
+		21202FEC20EB5C1000F82CA6 /* BaseMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21202FEB20EB5C1000F82CA6 /* BaseMapper.swift */; };
 		21226CE120E10AB700D05D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21226CDF20E10AB700D05D94 /* Main.storyboard */; };
 		21226CE320E10AB700D05D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21226CE220E10AB700D05D94 /* Assets.xcassets */; };
 		21226CE620E10AB700D05D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21226CE420E10AB700D05D94 /* LaunchScreen.storyboard */; };
@@ -69,6 +71,8 @@
 /* Begin PBXFileReference section */
 		008A4531EF822AB30FDF5A74 /* Pods-SwiftAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftAppUITests/Pods-SwiftAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1F95B65049DF5D8E0ADC2EF6 /* Pods_SwiftAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21202FE720EB59B500F82CA6 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		21202FEB20EB5C1000F82CA6 /* BaseMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMapper.swift; sourceTree = "<group>"; };
 		21226CD820E10AB700D05D94 /* SwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21226CE020E10AB700D05D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21226CE220E10AB700D05D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -152,6 +156,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21202FE920EB5BE300F82CA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21202FEA20EB5BF700F82CA6 /* ResponseMapper */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		21202FEA20EB5BF700F82CA6 /* ResponseMapper */ = {
+			isa = PBXGroup;
+			children = (
+				21202FEB20EB5C1000F82CA6 /* BaseMapper.swift */,
+			);
+			path = ResponseMapper;
+			sourceTree = "<group>";
+		};
 		21226CCF20E10AB700D05D94 = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				21226D0920E10B2E00D05D94 /* AppDelegate */,
+				21202FE920EB5BE300F82CA6 /* Model */,
 				21226D3020E10B2E00D05D94 /* Network */,
 				21226D0D20E10B2E00D05D94 /* ViewController */,
 				21226D3320E10B2E00D05D94 /* Storyboard */,
@@ -295,6 +316,7 @@
 			children = (
 				21226D3120E10B2E00D05D94 /* AuthHandler.swift */,
 				21226D3220E10B2E00D05D94 /* NetworkConstants.swift */,
+				21202FE720EB59B500F82CA6 /* NetworkManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -661,6 +683,7 @@
 				21226D3E20E10B2E00D05D94 /* ColorPicker.swift in Sources */,
 				21226D4720E10B2E00D05D94 /* AppDelegateExtension.swift in Sources */,
 				21226D5520E10B2E00D05D94 /* UIViewControllerExtension.swift in Sources */,
+				21202FE820EB59B500F82CA6 /* NetworkManager.swift in Sources */,
 				21226D4F20E10B2E00D05D94 /* UIColorExtension.swift in Sources */,
 				21226D4E20E10B2E00D05D94 /* UIButtonExtension.swift in Sources */,
 				21226D4D20E10B2E00D05D94 /* TimeZoneExtension.swift in Sources */,
@@ -670,6 +693,7 @@
 				21226D4220E10B2E00D05D94 /* KeychainWrapper.swift in Sources */,
 				21226D5220E10B2E00D05D94 /* UINavigationBarExtension.swift in Sources */,
 				21226D4C20E10B2E00D05D94 /* StringExtension.swift in Sources */,
+				21202FEC20EB5C1000F82CA6 /* BaseMapper.swift in Sources */,
 				21226D5820E10B2E00D05D94 /* NetworkConstants.swift in Sources */,
 				21226D3F20E10B2E00D05D94 /* ActionButton.swift in Sources */,
 			);
